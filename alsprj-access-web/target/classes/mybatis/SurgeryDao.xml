@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.edu.als.dao.SurgeryDao">
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+    <sql  id="SurgeryColumn">
+        id,surgeryNo,startTime,endTime,patient,patientId,doctor,doctorId,description,state,alarmPerson,type,lastAlarm
+    </sql>
+    <resultMap id="Surgery" type="zju.edu.als.domain.surgery.Surgery" >
+        <result column="id" property="id" jdbcType="BIGINT"/>
+        <result column="surgeryNo" property="surgeryNo" jdbcType="VARCHAR" />
+        <result column="startTime" property="startTime" jdbcType="BIGINT" />
+        <result column="endTime" property="endTime" jdbcType="BIGINT" />
+        <result column="patient" property="patient" jdbcType="VARCHAR" />
+        <result column="patientId" property="patientId" jdbcType="VARCHAR" />
+        <result column="doctor" property="doctor" jdbcType="VARCHAR"/>
+        <result column="doctorId" property="doctorId" jdbcType="VARCHAR"/>
+        <result column="description" property="description" jdbcType="VARCHAR"/>
+        <result column="state" property="state" jdbcType="INTEGER"/>
+        <result column="alarmPerson" property="alarmPerson" jdbcType="VARCHAR"/>
+        <result column="type" property="type" jdbcType="VARCHAR"/>
+        <result column="lastAlarm" property="lastAlarm" jdbcType="BIGINT"/>
+    </resultMap>
+    <update id="updateSurgery" parameterType="zju.edu.als.domain.surgery.Surgery">
+        UPDATE
+        surgery
+        SET
+        patient=#{surgery.patient},
+        patientId=#{surgery.patientId},
+        doctor=#{surgery.doctor},
+        doctorId=#{surgery.doctorId},
+        description=#{surgery.description},
+        type=#{surgery.type},
+        alarmPerson=#{surgery.alarmPerson}
+        WHERE
+        surgeryNo=#{surgery.surgeryNo}
+    </update>
+    <insert id="startSurgery"  parameterType="zju.edu.als.domain.surgery.Surgery">
+        INSERT INTO
+        surgery(
+          surgeryNo,
+          startTime,
+          patient,
+          patientId,
+          doctor,
+          doctorId,
+          description,
+          state,
+          alarmPerson,
+          type,
+          lastAlarm
+          )
+        VALUE (
+          #{surgery.surgeryNo},
+          #{surgery.startTime},
+          #{surgery.patient},
+          #{surgery.patientId},
+          #{surgery.doctor},
+          #{surgery.doctorId},
+          #{surgery.description},
+          #{surgery.state},
+          #{surgery.alarmPerson},
+          #{surgery.type},
+          #{surgery.lastAlarm}
+        )
+    </insert>
+    <update id="endSurgery" parameterType="zju.edu.als.domain.surgery.Surgery">
+        UPDATE
+        surgery
+        SET
+        state = #{surgery.state},
+        endTime = #{surgery.endTime}
+        WHERE
+        surgeryNo = #{surgery.surgeryNo}
+    </update>
+    <select id="selectSurgeryBySurgeryNo"  resultMap="Surgery">
+        SELECT
+        <include refid="SurgeryColumn"/>
+        FROM
+        surgery
+        WHERE
+        surgeryNo = #{surgeryNo}
+        ORDER BY
+        id
+    </select>
+    <select id="selectExecutingSurgeryBySurgeryNoList" parameterType="java.util.List">
+        SELECT
+        <include refid="SurgeryColumn"/>
+        FROM
+        surgery
+        WHERE
+        surgeryNo IN
+        <foreach collection="surgeryNoList" item="surgeryNo" index="index" open="(" close=")" separator=",">
+           #{surgeryNo}
+        </foreach>
+    </select>
+    <select id="selectAllSurgery" >
+        SELECT
+        <include refid="SurgeryColumn"/>
+        FROM
+        surgery
+        WHERE
+        1=1
+    </select>
+    <select id="selectSurgeryByState" parameterType="java.util.Map" resultMap="Surgery">
+        SELECT
+        <include refid="SurgeryColumn"/>
+        FROM
+        surgery
+        WHERE
+        state = #{state}
+    </select>
+    <select id="selectDistinctDoctor" resultType="java.lang.String">
+        SELECT
+          DISTINCT(doctor)
+        FROM
+        surgery
+    </select>
+    <select id="selectDistinctPatient" resultType="java.lang.String">
+        SELECT
+        DISTINCT(patient)
+        FROM
+        surgery
+    </select>
+    <select id="selectSurgeryDynamic" resultMap="Surgery" parameterType="java.util.Map">
+        SELECT
+        <include refid="SurgeryColumn"/>
+        FROM
+        surgery
+        WHERE
+        startTime &gt; #{startTime}
+        AND
+        startTime &lt; #{endTime}
+        <if test="doctor!=null and doctor!=''">
+            AND doctor = #{doctor}
+        </if>
+        <if test="patient!=null and patient!=''">
+            AND patient = #{patient}
+        </if>
+    </select>
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alsprj-access-bridge" />
+        <module name="alsprj-access-client" />
+        <module name="alsprj-access-collector" />
+        <module name="alsprj-access-common" />
+        <module name="alsprj-access-monitor" />
+        <module name="alsprj-access-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alsprj-access" target="1.8" />
+      <module name="alsprj-access-bridge" target="1.8" />
+      <module name="alsprj-access-client" target="1.8" />
+      <module name="alsprj-access-collector" target="1.8" />
+      <module name="alsprj-access-common" target="1.8" />
+      <module name="alsprj-access-monitor" target="1.8" />
+      <module name="alsprj-access-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

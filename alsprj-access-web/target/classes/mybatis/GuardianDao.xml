@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.edu.als.dao.GuardianDao">
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+    <sql  id="GuardianDataColumn">
+        id,surgeryNo,timestamp,heartRate,systolicPressure,diastolicPressure,bloodOxygen
+    </sql>
+    <resultMap id="GuardianData" type="zju.edu.als.domain.data.GuardianData" >
+        <result column="id" property="id" jdbcType="BIGINT"/>
+        <result column="surgeryNo" property="surgeryNo" jdbcType="VARCHAR" />
+        <result column="timestamp" property="timestamp" jdbcType="BIGINT" />
+        <result column="heartRate" property="heartRate" jdbcType="INTEGER" />
+        <result column="systolicPressure" property="systolicPressure" jdbcType="INTEGER"/>
+        <result column="diastolicPressure" property="diastolicPressure" jdbcType="INTEGER"/>
+        <result column="bloodOxygen" property="bloodOxygen" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <insert id="insertGuardianData" parameterType="zju.edu.als.domain.data.GuardianData">
+        INSERT INTO 
+        guardianData(
+        surgeryNo,
+        timestamp,
+        heartRate,
+        systolicPressure,
+        diastolicPressure,
+        bloodOxygen
+        )
+        VALUE 
+        (
+        #{guardianData.surgeryNo} ,
+        #{guardianData.timestamp},
+        #{guardianData.heartRate},
+        #{guardianData.systolicPressure},
+        #{guardianData.diastolicPressure},
+        #{guardianData.bloodOxygen}
+        )
+    </insert>
+
+    <insert id="batchInsertGuardianData" parameterType="java.util.List">
+        INSERT INTO
+        guardianData(surgeryNo,timestamp,heartRate,systolicPressure,diastolicPressure,bloodOxygen)
+        VALUES
+        <foreach collection="guardianDataList" item="guardianData" index="index" separator=",">
+            (#{guardianData.surgeryNo},
+            #{guardianData.timestamp},
+            #{guardianData.heartRate},
+            #{guardianData.systolicPressure},
+            #{guardianData.diastolicPressure},
+            #{guardianData.bloodOxygen}
+            )
+        </foreach>
+    </insert>
+    <select id="selectGuardianDataBySurgeryNo" parameterType="java.lang.String" resultMap="GuardianData">
+        SELECT
+        <include refid="GuardianDataColumn"/>
+        FROM
+        guardianData
+        WHERE
+        surgeryNo = #{surgeryNo}
+        ORDER BY
+        timestamp
+    </select>
+    <select id="selectGuardianDataBySurgeryNoWithTimeRange" parameterType="java.util.Map" resultMap="GuardianData">
+        SELECT
+        <include refid="GuardianDataColumn"/>
+        FROM
+        guardianData
+        WHERE
+        surgeryNo = #{surgeryNo}
+        AND
+        timestamp &gt; #{beginTime}
+        AND
+        timestamp &lt; #{endTime}
+        ORDER BY
+        timestamp
+    </select>
+    <select id="selectGuardianDataBySurgeryNoListWithTimeRange" parameterType="java.util.Map" resultMap="GuardianData">
+        SELECT
+        <include refid="GuardianDataColumn"/>
+        FROM
+        guardianData
+        WHERE
+        surgeryNo IN
+        <foreach collection="surgeryNoList" item="surgeryNo" index="index" open="(" close=")" separator=",">
+            #{surgeryNo}
+        </foreach>
+        AND
+        timestamp &gt; #{beginTime}
+        AND
+        timestamp &lt; #{endTime}
+        ORDER BY
+        timestamp
+    </select>
+
+</mapper>

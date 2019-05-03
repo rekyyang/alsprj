@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access.iml" filepath="$PROJECT_DIR$/alsprj-access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-bridge/alsprj-access-bridge.iml" filepath="$PROJECT_DIR$/alsprj-access-bridge/alsprj-access-bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-client/alsprj-access-client.iml" filepath="$PROJECT_DIR$/alsprj-access-client/alsprj-access-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-collector/alsprj-access-collector.iml" filepath="$PROJECT_DIR$/alsprj-access-collector/alsprj-access-collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-common/alsprj-access-common.iml" filepath="$PROJECT_DIR$/alsprj-access-common/alsprj-access-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-monitor/alsprj-access-monitor.iml" filepath="$PROJECT_DIR$/alsprj-access-monitor/alsprj-access-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsprj-access-web/alsprj-access-web.iml" filepath="$PROJECT_DIR$/alsprj-access-web/alsprj-access-web.iml" />
+    </modules>
+  </component>
+</project>
