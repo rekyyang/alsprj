@@ -16,7 +16,7 @@ import static zju.edu.als.client.constant.ClientConstant.SURGERY_DATA_OFFSET;
  * Created by zzq on 2016/11/29.
  */
 @Slf4j
-public class Main {
+public class ClientMain {
     public static void main(String[] args) {
 
         if (args.length != 1) {

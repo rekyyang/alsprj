@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
  * Created by zzq on 2016/11/28.
  */
 @Slf4j
-@Component
+//@Component
 public class Collector implements SmartLifecycle{
 
     private ExecutorService executorService;

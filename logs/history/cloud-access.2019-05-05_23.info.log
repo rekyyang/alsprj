@@ -1,0 +1,23 @@
+2019-05-05 23:02:25 INFO main - The ALS Could System is Starting....
+2019-05-05 23:02:25 INFO main - Connected to The Server als-server.zju.edu.cn
+2019-05-05 23:03:33 INFO main - The ALS Could System is Starting....
+2019-05-05 23:03:33 INFO main - Connected to The Server als-server.zju.edu.cn
+2019-05-05 23:04:45 INFO main - The ALS Could System is Starting....
+2019-05-05 23:04:45 INFO main - Connected to The Server als-server.zju.edu.cn
+2019-05-05 23:09:40 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-05 23:09:42 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:09:42 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:11:50 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:11:50 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:13:28 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:13:28 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:13:37 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:13:37 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:13:54 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:13:54 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:14:45 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:14:45 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:18:52 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:18:52 INFO pool-2-thread-1 - surgeryData.txt read over
+2019-05-05 23:22:29 INFO pool-2-thread-1 - Read data from surgeryData.txt
+2019-05-05 23:22:29 INFO pool-2-thread-1 - surgeryData.txt read over

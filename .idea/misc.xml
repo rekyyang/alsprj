@@ -3,11 +3,6 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/alsprj-access-web" />
   </component>
-  <component name="JUnitGeneratorProjectSettings">
-    <option name="generateForOverloadedMethods" value="false" />
-    <option name="outputFilePattern" value="${SOURCEPATH}/../../test/java/${PACKAGE}/${FILENAME}" />
-    <option name="selectedTemplateKey" value="JUnit 4" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

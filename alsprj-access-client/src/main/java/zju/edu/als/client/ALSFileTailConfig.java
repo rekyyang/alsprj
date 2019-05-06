@@ -9,6 +9,12 @@ public class ALSFileTailConfig {
     private File ALSDataFile;
     private long ALSDataFilePoint;
 
+
+    public ALSFileTailConfig(File ALSDataFile, long ALSDataFilePoint) {
+        this.ALSDataFile = ALSDataFile;
+        this.ALSDataFilePoint = ALSDataFilePoint;
+    }
+
     public File getALSDataFile() {
         return ALSDataFile;
     }

@@ -18,6 +18,11 @@
         </dependency>
         <dependency>
             <groupId>zju.edu.als</groupId>
+            <artifactId>alsprj-access-bridge</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>zju.edu.als</groupId>
             <artifactId>alsprj-access-monitor</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

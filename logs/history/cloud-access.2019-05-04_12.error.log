@@ -1,0 +1,198 @@
+2019-05-04 12:24:10 INFO main - als data path: /data
+2019-05-04 12:25:16 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:25:17 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:25:17 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:26:46 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:26:46 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:28:30 INFO pool-1-thread-1 - break
+2019-05-04 12:28:38 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:28:39 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:28:39 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:32:30 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:32:30 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:32:41 INFO pool-1-thread-1 - break
+2019-05-04 12:32:50 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:33:01 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:33:01 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:34:49 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:34:49 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:34:49 ERROR pool-3-thread-1 - socket Connect lost send data failed
+java.net.SocketException: Broken pipe (Write failed)
+	at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:312)
+	at java.base/sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:316)
+	at java.base/sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:153)
+	at java.base/java.io.OutputStreamWriter.flush(OutputStreamWriter.java:254)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:257)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:72)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:34:49 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:34:54 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:34:59 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:35:04 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:35:09 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:35:14 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:35:19 ERROR pool-3-thread-1 - build socket connect failed
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at java.base/java.net.Socket.<init>(Socket.java:436)
+	at java.base/java.net.Socket.<init>(Socket.java:213)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketAndOut(DataSenderManager.java:42)
+	at zju.edu.als.bridge.DataSenderManager.buildSocketConnect(DataSenderManager.java:29)
+	at zju.edu.als.bridge.DataSenderManager.sendMessage(DataSenderManager.java:76)
+	at zju.edu.als.bridge.DataSenderManager.lambda$sendData$0(DataSenderManager.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:37:28 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:37:28 ERROR pool-1-thread-1 - socket Connect lost send data failed
+java.net.SocketException: Broken pipe (Write failed)
+	at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:312)
+	at java.base/sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:316)
+	at java.base/sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:153)
+	at java.base/java.io.OutputStreamWriter.flush(OutputStreamWriter.java:254)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:257)
+	at zju.edu.als.client.DataSenderManager.sendData(DataSenderManager.java:40)
+	at zju.edu.als.client.ALSFileTail.run(ALSFileTail.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-04 12:37:28 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:37:49 INFO pool-1-thread-1 - break
+2019-05-04 12:37:57 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:38:19 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:38:19 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:38:35 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:38:35 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:39:40 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:39:40 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:40:21 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:40:35 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:40:35 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:40:35 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:40:35 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:41:15 INFO pool-1-thread-1 - break
+2019-05-04 12:41:17 INFO pool-1-thread-1 - break
+2019-05-04 12:42:13 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-04 12:42:24 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:42:24 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-04 12:42:40 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-04 12:42:40 INFO pool-1-thread-1 - surgeryData.txt read over

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.edu.als.dao.MedicalRecordDao">
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+    <resultMap id="MedicalRecord" type="zju.edu.als.domain.record.MedicalRecord">
+        <result column="id" property="id" jdbcType="BIGINT"/>
+        <result column="inpatientNum" property="inpatientNum" jdbcType="INTEGER"/>
+        <result column="patient" property="patient" jdbcType="VARCHAR"/>
+        <result column="complications" property="complications" jdbcType="VARCHAR"/>
+        <result column="path" property="path" jdbcType="VARCHAR"/>
+        <result column="state" property="state" jdbcType="INTEGER"/>
+    </resultMap>
+    <sql  id="MedicalRecordColumn">
+        id,
+        inpatientNum,
+        patient,
+        complications,
+        path,
+        state
+    </sql>
+    <insert id="insertMedicalRecord" parameterType="zju.edu.als.domain.record.MedicalRecord">
+        INSERT INTO
+        medicalRecord(inpatientNum,patient,state)
+        VALUE
+        (#{medicalRecord.inpatientNum},
+        #{medicalRecord.patient},
+        #{medicalRecord.state})
+    </insert>
+    <delete id="deleteMedicalRecord" parameterType="zju.edu.als.domain.record.MedicalRecord">
+        DELETE FROM
+        medicalRecord
+        WHERE
+        inpatientNum=#{medicalRecord.inpatientNum}
+    </delete>
+    <select id="selectAllMedicalRecord" resultMap="MedicalRecord">
+        SELECT
+        <include refid="MedicalRecordColumn"/>
+        FROM
+        medicalRecord
+        WHERE 1=1;
+    </select>
+    <update id="updateMedicalRecord" parameterType="java.util.Map">
+        UPDATE
+        medicalRecord
+        SET
+        patient=#{patient},
+        complications=#{complications},
+        path=#{path},
+        state=#{state}
+        WHERE
+        inpatientNum=#{inpatientNum}
+    </update>
+    <select id="selectDynamic" parameterType="java.util.Map" resultMap="MedicalRecord">
+        SELECT
+        <include refid="MedicalRecordColumn"/>
+        FROM
+        medicalRecord
+        WHERE 1=1
+        <if test="inpatientNum!=null">
+            AND inpatientNum = #{inpatientNum}
+        </if>
+        <if test="state!=null">
+            AND state = #{state}
+        </if>
+    </select>
+</mapper>

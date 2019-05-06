@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="alsprj-access-web:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c328476-805b-43cc-8d97-3514ea1bf50c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-access-bridge/target/cloud-access-bridge.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-access-client/target/cloud-access-client.jar" beforeDir="false" />
+    <list default="true" id="0c328476-805b-43cc-8d97-3514ea1bf50c" name="Default Changelist" comment="第二次修改工程...编译成功通过&#10;主要是pom文件的artifact名字...">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alsprj-access-collector/src/main/resources/ssl_certs/alsprj-server.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alsprj-access-web/src/main/resources/ssl_certs/alsprj-server.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/alsprj_access_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/alsprj_access_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/alsprj-access-bridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/alsprj-access-bridge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/bridge/BridgeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/bridge/BridgeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SslContextFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SslContextFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-bridge/target/classes/zju/edu/als/bridge/BridgeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-bridge/target/classes/zju/edu/als/bridge/BridgeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/alsprj-access-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-client/alsprj-access-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ALSFileTailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ALSFileTailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/target/classes/zju/edu/als/client/ALSFileTailConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-client/target/classes/zju/edu/als/client/ALSFileTailConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-client/target/classes/zju/edu/als/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-collector/alsprj-access-collector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-collector/alsprj-access-collector.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-collector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-collector/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/Collector.java" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/Collector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-collector/target/classes/zju/edu/als/collector/Collector.class" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-collector/target/classes/zju/edu/als/collector/Collector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-common/alsprj-access-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-common/alsprj-access-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-monitor/alsprj-access-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-monitor/alsprj-access-monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access-web/alsprj-access-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access-web/alsprj-access-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alsprj-access.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alsprj-access.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/surgeryData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/surgeryData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/surgeryDataIndex.offset" beforeDir="false" afterPath="$PROJECT_DIR$/data/surgeryDataIndex.offset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-access-bridge/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,53 +64,187 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-273871171">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="5" />
-          <entry key="java" value="12" />
+          <entry key="ALSData" value="1" />
+          <entry key="authority" value="1" />
+          <entry key="class" value="3" />
+          <entry key="guardianData" value="1" />
+          <entry key="iml" value="6" />
+          <entry key="java" value="135" />
+          <entry key="jks" value="5" />
+          <entry key="log" value="2" />
           <entry key="md" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="24" />
-          <entry key="xsd" value="1" />
+          <entry key="offset" value="4" />
+          <entry key="properties" value="8" />
+          <entry key="sql" value="1" />
+          <entry key="surgery" value="1" />
+          <entry key="txt" value="4" />
+          <entry key="user" value="1" />
+          <entry key="xml" value="53" />
+          <entry key="xsd" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="12" />
+          <entry key="CLASS" value="3" />
+          <entry key="Database Element" value="5" />
+          <entry key="IDEA_MODULE" value="6" />
+          <entry key="JAVA" value="135" />
+          <entry key="Log" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="25" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Properties" value="8" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="txt" value="79" />
-          <entry key="xml" value="86" />
+          <entry key="dummy" value="42" />
+          <entry key="java" value="4957" />
+          <entry key="offset" value="1" />
+          <entry key="txt" value="293" />
+          <entry key="xml" value="158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="79" />
-          <entry key="XML" value="86" />
+          <entry key="JAVA" value="4957" />
+          <entry key="PLAIN_TEXT" value="336" />
+          <entry key="XML" value="158" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/mybatis/SurgeryDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#BridgeServer#0;class#BridgeServer#0" />
+                <element signature="method#start#0;class#BridgeServer#0" />
+                <element signature="method#destroy#0;class#BridgeServer#0" />
+                <element signature="class#BridgeClient#0;class#BridgeServer#0" />
+                <element signature="method#restart#0;class#BridgeClient#0;class#BridgeServer#0" />
+                <element signature="method#destroy#0;class#BridgeClient#0;class#BridgeServer#0" />
+                <element signature="class#ConnectionListener#0;class#BridgeServer#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SslContextFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="32" column="88" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/SurgeryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/ALSDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar!/org/apache/ibatis/annotations/Param.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ehcache.xsd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -89,9 +263,35 @@
         <option value="$PROJECT_DIR$/alsprj-access-bridge/pom.xml" />
         <option value="$PROJECT_DIR$/alsprj-access-client/pom.xml" />
         <option value="$PROJECT_DIR$/alsprj-access-web/pom.xml" />
-        <option value="$PROJECT_DIR$/alsprj-access-collector/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/alsprj-access-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ALSFileTailConfig.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeDataHandler.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/Main.java" />
+        <option value="$PROJECT_DIR$/data/surgeryDataIndex.offset" />
+        <option value="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ALSFileTail.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeDataHandler.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServerInitializer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeHandler.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SecureBridgeClientInitializer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/bridge/BridgeMain.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/Main.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ClientMain.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-web/src/main/resources/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/alsprj-access-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/SslContextFactory.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/pom.xml" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectDataHandler.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServerHandlerInitializer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServerInitializer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectHandler.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/Collector.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServer.java" />
+        <option value="$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SslContextFactory.java" />
+        <option value="$PROJECT_DIR$/data/surgeryData.txt" />
+        <option value="$PROJECT_DIR$/alsprj-access-web/src/main/resources/database.xml" />
       </list>
     </option>
   </component>
@@ -100,6 +300,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -119,7 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,16 +336,187 @@
             <path>
               <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
               <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="als" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="als" type="462c0819:PsiDirectoryNode" />
+              <item name="sslbridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="als" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="als" type="462c0819:PsiDirectoryNode" />
+              <item name="sslcollector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-collector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
               <item name="alsprj-access-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alsprj-access" type="462c0819:PsiDirectoryNode" />
+              <item name="alsprj-access-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis-ehcache:1.0.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis-ehcache:1.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-ehcache-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alsprj-access" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mybatis:mybatis-ehcache:1.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-ehcache-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ehcache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="alsprj-access" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="alsprj-access-bridge" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alsprj-access" type="58d84e3e:PackageViewProjectNode" />
+              <item name="alsprj-access-bridge" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
     <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
@@ -150,14 +527,26 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556862399554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557119227476" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zju.edu.als.sslcollector" />
+      <recent name="zju.edu.als.sslbridge" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/alsprj-access-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/alsprj-access-collector/src/main/resources/ssl_certs" />
+      <recent name="$PROJECT_DIR$/alsprj-access-bridge/src/main/resources/ssl_certs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,7 +560,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientMain">
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.edu.als.bridge.BridgeMain" />
+      <module name="alsprj-access-bridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.edu.als.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.edu.als.sslbridge.BridgeServer" />
+      <module name="alsprj-access-bridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.edu.als.sslbridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.edu.als.client.ClientMain" />
+      <module name="alsprj-access-client" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/data " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.edu.als.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.edu.als.sslbridge.Main" />
+      <module name="alsprj-access-bridge" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/data " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.edu.als.sslbridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.edu.als.client.Main" />
+      <module name="alsprj-access-client" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zju.edu.als.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="alsprj-access-bridge" />
       <option name="VM_PARAMETERS" />
@@ -219,6 +676,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="alsprj-access" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="alsprj-access-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_alsprj-access" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64443" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="alsprj-access-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.alsprj-access" />
+      <item itemvalue="Application.BridgeServer" />
+      <item itemvalue="Application.BridgeMain" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ClientMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientMain" />
+        <item itemvalue="Application.BridgeServer" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BridgeMain" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -234,6 +779,10 @@
       <workItem from="1556859642113" duration="354000" />
       <workItem from="1556860026710" duration="2026000" />
       <workItem from="1556862083796" duration="314000" />
+      <workItem from="1556863064103" duration="40735000" />
+      <workItem from="1557067830765" duration="4562000" />
+      <workItem from="1557106969609" duration="7099000" />
+      <workItem from="1557122554491" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="第一次修改工程...">
       <created>1556859528346</created>
@@ -253,40 +802,52 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3376000" />
+    <option name="totallyTimeSpent" value="57120000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69036144" visible="true" weight="0.2639485" />
+      <window_info id="Structure" order="1" sideWeight="0.30963856" side_tool="true" visible="true" weight="0.2639485" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.29759037" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.2626506" />
+      <window_info anchor="bottom" id="Database Console" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18674698" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.4985694" weight="0.12771085" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22818312" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -329,176 +890,331 @@
     <option name="LAST_COMMIT_MESSAGE" value="第二次修改工程...编译成功通过&#10;主要是pom文件的artifact名字..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/alsprj-access-bridge.iml" />
-    <entry file="file://$PROJECT_DIR$/alsprj-access.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-client/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/test/java/zju/edu/als/dao/AlarmSettingDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/resources/cloud-access.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/java/zju/edu/als/controller/AlarmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/java/zju/edu/als/controller/SurgeryController.java">
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeDataHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="462">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/cloud-access.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/database.xml">
+    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/java/zju/edu/als/monitor/GuardianMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ehcache.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/alsprj-access-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/java/zju/edu/als/alarm/AlarmCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="433">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/util/PreCondition.java">
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/SslContextFactory.java" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
+        <state relative-caret-position="484">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/java/zju/edu/als/alarm/SMSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="630">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/ServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/java/zju/edu/als/alarm/AlarmConfig.java">
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="565">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/GuardianDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/AlarmSettingDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="154">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/domain/data/ALSData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1811">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/util/DateFormatUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/resources/ssl_certs/alsprj-server.jks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/bridge/BridgeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ssl_certs/alsprj-server.jks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-client/src/main/java/zju/edu/als/client/ClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3e2cfe1-825e-48a3-89e4-13cacb85276c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://a3e2cfe1-825e-48a3-89e4-13cacb85276c/schema/alsCloud/table/authority">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a3e2cfe1-825e-48a3-89e4-13cacb85276c/schema/alsCloud/table/surgery">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a3e2cfe1-825e-48a3-89e4-13cacb85276c/schema/alsCloud/table/ALSData">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a3e2cfe1-825e-48a3-89e4-13cacb85276c/schema/alsCloud/table/guardianData">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a3e2cfe1-825e-48a3-89e4-13cacb85276c/schema/alsCloud/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/collector/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/surgeryData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/src/main/java/zju/edu/als/sslcollector/CollectServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/cloud-access.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-monitor/src/main/java/zju/edu/als/monitor/HeartBeat.java">
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="374">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.6.RELEASE/spring-web-4.0.6.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alsprj-access-collector/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="286">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/mybatis/AlarmSettingDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/mybatis/ALSDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/SurgeryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-common/src/main/java/zju/edu/als/dao/ALSDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar!/org/apache/ibatis/annotations/Param.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/ehcache.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/mybatis/SurgeryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BridgeServer#0;class#BridgeServer#0" />
+            <element signature="method#start#0;class#BridgeServer#0" />
+            <element signature="method#destroy#0;class#BridgeServer#0" />
+            <element signature="class#BridgeClient#0;class#BridgeServer#0" />
+            <element signature="method#restart#0;class#BridgeClient#0;class#BridgeServer#0" />
+            <element signature="method#destroy#0;class#BridgeClient#0;class#BridgeServer#0" />
+            <element signature="class#ConnectionListener#0;class#BridgeServer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/BridgeServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-bridge/src/main/java/zju/edu/als/sslbridge/SslContextFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="88" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alsprj-access-web/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

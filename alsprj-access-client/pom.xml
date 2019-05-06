@@ -28,7 +28,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>zju.edu.als.client.Main</mainClass>
+                            <mainClass>zju.edu.als.client.ClientMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

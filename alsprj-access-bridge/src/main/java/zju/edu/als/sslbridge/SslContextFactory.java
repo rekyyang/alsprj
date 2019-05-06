@@ -1,4 +1,4 @@
-package org.juwir.ssl;
+package zju.edu.als.sslbridge;
 
 import io.netty.handler.ssl.ClientAuth;
 import io.netty.handler.ssl.SslContext;
@@ -11,7 +11,6 @@ import javax.net.ssl.TrustManagerFactory;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.security.KeyStore;
-import java.security.Security;
 import java.util.Objects;
 
 @Slf4j
