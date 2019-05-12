@@ -1,1 +1,14 @@
-2019-05-06 13:07:51 INFO pool-2-thread-1 - break
+2019-05-12 19:43:29 ERROR nioEventLoopGroup-3-1 - Reconnecting to Could Server
+2019-05-12 19:43:33 ERROR nioEventLoopGroup-3-2 - Reconnecting to Could Server
+2019-05-12 19:43:39 ERROR nioEventLoopGroup-3-3 - Reconnecting to Could Server
+2019-05-12 19:51:03 ERROR pool-1-thread-1 - Server Socket Bind Exception
+java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+	at zju.edu.als.bridge.ServerHandler.run(ServerHandler.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)

@@ -1,0 +1,23 @@
+2019-05-11 19:12:07 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 19:12:07 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 19:12:17 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 19:12:17 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:56208 上线
+2019-05-11 19:12:19 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 19:12:19 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 19:12:55 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 19:12:55 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:56208 下线
+2019-05-11 19:13:17 INFO pool-1-thread-1 - break
+2019-05-11 19:13:56 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 19:13:56 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 19:14:08 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 19:14:08 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:56488 上线
+2019-05-11 19:14:09 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 19:14:09 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 19:15:39 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 19:15:39 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 19:15:48 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:56488 下线
+2019-05-11 19:15:48 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 19:18:32 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 19:18:32 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 19:19:43 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 19:19:43 INFO pool-1-thread-1 - break

@@ -9,16 +9,26 @@ import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslHandler;
 import io.netty.util.CharsetUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import javax.net.ssl.SSLEngine;
 @Slf4j
+@Component
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class CollectServerInitializer extends ChannelInitializer<Channel> {
 
-    private final SslContext context;
+    @Qualifier("sslContext")
+    @Resource
+    private SslContext context;
 
-    public CollectServerInitializer(SslContext context) {
-        this.context = context;
-    }
+    @Resource
+    private ApplicationContext springContext;
+
 
     @Override
     protected void initChannel(Channel ch) throws Exception {
@@ -34,7 +44,7 @@ public class CollectServerInitializer extends ChannelInitializer<Channel> {
                 new LineBasedFrameDecoder(64*1024),
                 new StringDecoder(CharsetUtil.UTF_8),
                 new StringEncoder(CharsetUtil.UTF_8),
-                new CollectHandler()
+                springContext.getBean(CollectHandler.class)
         );
     }
 }

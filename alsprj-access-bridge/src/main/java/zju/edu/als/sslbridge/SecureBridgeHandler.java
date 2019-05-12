@@ -2,7 +2,9 @@ package zju.edu.als.sslbridge;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class SecureBridgeHandler extends SimpleChannelInboundHandler<String> {
 
     private final BridgeServer.BridgeClient client;
@@ -18,13 +20,13 @@ public class SecureBridgeHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("Data Can be Sent to Cloud Server");
+        log.info("Data Can be Sent to Cloud Server");
         client.flushMessages();
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("Connection failed, Trying to Restart");
+        log.info("Connection failed, Trying to Restart");
         client.restart();
     }
 

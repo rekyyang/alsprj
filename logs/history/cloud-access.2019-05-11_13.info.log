@@ -1,0 +1,38 @@
+2019-05-11 13:23:18 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 13:24:00 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:24:00 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:28:12 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 13:29:25 INFO pool-1-thread-1 - break
+2019-05-11 13:29:27 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 13:29:27 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 13:29:39 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 13:29:39 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:58025 上线
+2019-05-11 13:30:17 INFO pool-1-thread-1 - break
+2019-05-11 13:30:17 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:58025 下线
+2019-05-11 13:30:43 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 13:30:43 INFO nioEventLoopGroup-3-3 - 人工肝机器 /127.0.0.1:58185 上线
+2019-05-11 13:31:13 INFO nioEventLoopGroup-3-3 - 人工肝机器 /127.0.0.1:58185 下线
+2019-05-11 13:31:13 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 13:31:16 INFO pool-1-thread-1 - break
+2019-05-11 13:37:11 INFO nioEventLoopGroup-3-4 - Bridge Start Successfully
+2019-05-11 13:37:11 INFO nioEventLoopGroup-3-4 - Data Can be Sent to Cloud Server
+2019-05-11 13:37:25 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 13:37:25 INFO nioEventLoopGroup-3-5 - 人工肝机器 /127.0.0.1:59231 上线
+2019-05-11 13:37:55 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:37:55 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:39:32 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:39:32 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:41:35 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:41:35 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:41:55 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:41:55 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:42:13 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:42:13 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:42:39 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:42:39 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:42:47 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:42:47 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:42:51 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:42:51 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:43:28 INFO nioEventLoopGroup-3-5 - 人工肝机器 /127.0.0.1:59231 下线
+2019-05-11 13:44:02 INFO pool-1-thread-1 - break

@@ -2,7 +2,10 @@ package zju.edu.als.sslbridge;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import lombok.extern.slf4j.Slf4j;
 
+
+@Slf4j
 public class BridgeDataHandler extends SimpleChannelInboundHandler<String> {
 
 
@@ -25,12 +28,12 @@ public class BridgeDataHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("人工肝机器 "+ ctx.channel().remoteAddress()+" 上线");
+        log.info("人工肝机器 "+ ctx.channel().remoteAddress()+" 上线");
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println("人工肝机器 "+ ctx.channel().remoteAddress()+ " 下线");
+        log.info("人工肝机器 "+ ctx.channel().remoteAddress()+ " 下线");
     }
 
 }

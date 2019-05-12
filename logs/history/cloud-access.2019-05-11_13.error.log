@@ -1,0 +1,7 @@
+2019-05-11 13:23:18 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 13:24:00 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 13:24:00 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 13:29:25 INFO pool-1-thread-1 - break
+2019-05-11 13:37:01 ERROR nioEventLoopGroup-3-1 - Reconnecting to Could Server
+2019-05-11 13:37:05 ERROR nioEventLoopGroup-3-2 - Reconnecting to Could Server
+2019-05-11 13:37:11 ERROR nioEventLoopGroup-3-3 - Reconnecting to Could Server

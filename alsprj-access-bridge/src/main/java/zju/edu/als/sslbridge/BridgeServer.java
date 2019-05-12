@@ -7,13 +7,14 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.ssl.SslContext;
+import lombok.extern.slf4j.Slf4j;
 
-import javax.net.ssl.SSLException;
 import java.net.InetSocketAddress;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Slf4j
 public class BridgeServer {
     private final EventLoopGroup bossGroup;
     private final EventLoopGroup workerGroup;
@@ -145,12 +146,12 @@ public class BridgeServer {
             if (!future.isSuccess()) {
                 final EventLoop loop = future.channel().eventLoop();
                 loop.schedule(() -> {
-                    System.err.println("Reconnecting to Could Server");
+                    log.error("Reconnecting to Could Server");
                     client.restart();
                 }, count.incrementAndGet()*2, TimeUnit.SECONDS);
             } else {
                 count.getAndSet(0);
-                System.out.println("Bridge Start Successfully");
+                log.info("Bridge Start Successfully");
             }
         }
     }

@@ -1,0 +1,82 @@
+2019-05-11 18:19:09 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:19:10 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:19:28 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:19:28 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:64337 上线
+2019-05-11 18:19:30 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:19:30 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:19:44 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:64337 下线
+2019-05-11 18:19:44 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 18:24:15 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:24:15 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:24:43 INFO pool-1-thread-1 - break
+2019-05-11 18:24:47 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:24:47 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:25:21 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:25:21 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:65233 上线
+2019-05-11 18:25:34 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:25:34 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:27:46 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:27:46 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:28:23 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:65233 下线
+2019-05-11 18:28:23 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 18:28:23 INFO pool-1-thread-1 - break
+2019-05-11 18:31:34 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:31:34 INFO nioEventLoopGroup-3-4 - 人工肝机器 /127.0.0.1:49847 上线
+2019-05-11 18:31:35 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:31:36 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:31:39 INFO nioEventLoopGroup-3-5 - Bridge Start Successfully
+2019-05-11 18:31:39 INFO nioEventLoopGroup-3-5 - Data Can be Sent to Cloud Server
+2019-05-11 18:32:34 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:32:34 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:32:44 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:32:44 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:35:16 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:35:16 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:36:22 INFO pool-1-thread-1 - break
+2019-05-11 18:36:22 INFO nioEventLoopGroup-3-4 - 人工肝机器 /127.0.0.1:49847 下线
+2019-05-11 18:36:30 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:36:30 INFO nioEventLoopGroup-3-6 - 人工肝机器 /127.0.0.1:50606 上线
+2019-05-11 18:36:31 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:36:32 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:38:13 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:38:13 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:38:36 INFO pool-1-thread-1 - break
+2019-05-11 18:38:36 INFO nioEventLoopGroup-3-6 - 人工肝机器 /127.0.0.1:50606 下线
+2019-05-11 18:38:43 INFO nioEventLoopGroup-3-5 - Connection failed, Trying to Restart
+2019-05-11 18:38:52 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:38:52 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:39:37 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:39:37 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:51084 上线
+2019-05-11 18:39:38 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:39:38 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:41:28 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:41:28 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:41:57 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:41:57 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:42:05 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:51084 下线
+2019-05-11 18:42:05 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 18:44:23 INFO pool-1-thread-1 - break
+2019-05-11 18:45:27 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:45:28 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:45:42 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:45:42 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:52050 上线
+2019-05-11 18:45:43 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:45:43 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:52:06 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 18:52:06 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:52050 下线
+2019-05-11 18:52:07 INFO pool-1-thread-1 - break
+2019-05-11 18:52:53 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:52:53 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:53:16 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:53:16 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:53223 上线
+2019-05-11 18:53:17 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:53:17 INFO pool-1-thread-1 - surgeryData.txt read over
+2019-05-11 18:55:17 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:53223 下线
+2019-05-11 18:55:17 INFO nioEventLoopGroup-3-1 - Connection failed, Trying to Restart
+2019-05-11 18:55:17 INFO pool-1-thread-1 - break
+2019-05-11 18:57:37 INFO nioEventLoopGroup-3-1 - Bridge Start Successfully
+2019-05-11 18:57:37 INFO nioEventLoopGroup-3-1 - Data Can be Sent to Cloud Server
+2019-05-11 18:57:54 INFO main - als data path: /Users/imddon/alsprj/alsprj-access/data
+2019-05-11 18:57:54 INFO nioEventLoopGroup-3-2 - 人工肝机器 /127.0.0.1:54002 上线
+2019-05-11 18:57:55 INFO pool-1-thread-1 - Read data from surgeryData.txt
+2019-05-11 18:57:55 INFO pool-1-thread-1 - surgeryData.txt read over

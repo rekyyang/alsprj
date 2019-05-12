@@ -1,0 +1,19 @@
+2019-05-11 18:24:15 ERROR pool-1-thread-1 - socket Connect lost send data failed
+java.net.SocketException: Broken pipe (Write failed)
+	at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:233)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:312)
+	at java.base/sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:316)
+	at java.base/sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:153)
+	at java.base/java.io.OutputStreamWriter.flush(OutputStreamWriter.java:254)
+	at java.base/java.io.BufferedWriter.flush(BufferedWriter.java:257)
+	at zju.edu.als.client.DataSenderManager.sendData(DataSenderManager.java:40)
+	at zju.edu.als.client.ALSFileTail.run(ALSFileTail.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-05-11 18:31:29 ERROR nioEventLoopGroup-3-1 - Reconnecting to Could Server
+2019-05-11 18:31:33 ERROR nioEventLoopGroup-3-2 - Reconnecting to Could Server
+2019-05-11 18:31:39 ERROR nioEventLoopGroup-3-3 - Reconnecting to Could Server
